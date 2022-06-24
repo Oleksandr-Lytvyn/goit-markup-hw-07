@@ -453,7 +453,7 @@ body {
 /* ------PORTFOLIO-PAGE--------- */
 /* ------CATALOG-FILTER-------- */
 
-.btn-filter {
+.filter__btn {
   cursor: pointer;
   font-family: inherit;
   font-weight: 500;
@@ -470,12 +470,12 @@ body {
     box-shadow 250ms var(--cubic);
 }
 
-.filter-item:not(:first-child) {
+.filter__item:not(:first-child) {
   margin-left: 8px;
 }
 
-.btn-filter:hover,
-.btn-filter:focus {
+.filter__btn:hover,
+.filter__btn:focus {
   color: var(--white-color);
   background-color: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
@@ -495,38 +495,38 @@ body {
   justify-content: center;
 }
 
-.catalog-list {
+.catalog__list {
   display: flex;
   flex-wrap: wrap;
   margin-top: -30px;
   margin-left: -30px;
 }
 
-.catalog-item {
+.catalog__item {
   margin-left: 30px;
   margin-top: 30px;
 }
 
-.catalog-item-link {
+.catalog__link {
   display: block;
   transition: box-shadow 250ms var(--cubic);
 }
 
-.catalog-item-link:hover,
-.catalog-item-link:focus {
+.catalog__link:hover,
+.catalog__link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.catalog-item-link:hover .catalog-item-hiddentext {
+.catalog__link:hover .catalog__hiddentext {
   transform: translateY(0);
 }
 
-.catalog-item-link:focus .catalog-item-hiddentext {
+.catalog__link:focus .catalog__hiddentext {
   transform: translateY(0);
 }
 
-.catalog-img-box {
+.catalog__img-box {
   /* display: block;
   width: 100%;
   height: 100%; */
@@ -534,7 +534,7 @@ body {
   overflow: hidden;
 }
 
-.catalog-item-hiddentext {
+.catalog__hiddentext {
   position: absolute;
   top: 0;
 
@@ -549,7 +549,7 @@ body {
   transition: transform 250ms var(--cubic);
 }
 
-.catalog-content {
+.catalog__text-box {
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 24px;
@@ -558,7 +558,7 @@ body {
   border-top: none;
 }
 
-.catalog-title {
+.catalog__title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -568,7 +568,7 @@ body {
   margin-bottom: 4px;
 }
 
-.catalog-text {
+.catalog__description {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
