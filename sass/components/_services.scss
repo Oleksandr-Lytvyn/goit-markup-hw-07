@@ -10,12 +10,11 @@
   margin-bottom: 50px;
 }
 
-.services__item:not(:first-child) {
-  margin-left: 30px;
-}
-
 .services__item {
   position: relative;
+  &:not(:first-child) {
+    margin-left: 30px;
+  }
 }
 
 .services__text {
@@ -24,8 +23,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  /* padding-top: 27px;
-  padding-bottom: 27px; */
   font-weight: 700;
   line-height: 1.14;
   text-align: center;

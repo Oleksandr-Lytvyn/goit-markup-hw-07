@@ -5,6 +5,9 @@
 
 .benefits__item {
   width: 270px;
+  &:not(:first-child) {
+    margin-left: 30px;
+  }
 }
 
 .benefits__itemplate {
@@ -16,10 +19,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.benefits__item:not(:first-child) {
-  margin-left: 30px;
 }
 
 .benefits__list {

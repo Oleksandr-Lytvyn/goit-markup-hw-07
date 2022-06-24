@@ -40,9 +40,8 @@
   border-radius: 4px;
   border: none;
   transition: background-color 250ms var(--cubic);
-}
-
-.btn-order:hover,
-.btn-order:focus {
-  background-color: #188ce8;
+  &:hover,
+  &:focus {
+    background-color: #188ce8;
+  }
 }
