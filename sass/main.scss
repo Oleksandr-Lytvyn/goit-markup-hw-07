@@ -1,10 +1,16 @@
 @import './utils/vars';
-@import './components/modal' @import './components/header';
+
+@import './components/common';
+@import './components/social-list';
+@import './components/modal';
+
+@import './components/logo';
+@import './components/header';
 @import './components/hero';
 @import './components/benefits';
 @import './components/services';
 @import './components/team';
 @import './components/clients';
-@import './components/footer';
 @import './components/catalog-filter';
 @import './components/catalog';
+@import './components/footer';

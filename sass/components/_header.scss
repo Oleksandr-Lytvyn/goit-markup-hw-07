@@ -21,19 +21,7 @@
 
 .header__navlist {
   display: flex;
-}
-
-.logo {
-  font-family: 'Raleway';
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  color: var(--superblack-color);
-  margin-right: 93px;
-}
-
-.logo--blue {
-  color: var(--accent-color);
+  margin-left: 93px;
 }
 
 .nav-item {
